@@ -9,12 +9,15 @@ import java.util.List;
 @Service
 public class AlunoService {
 
+<<<<<<< HEAD
     private CalcularIdade calcularIdade;
 
     public CalcularIdade getCalcularIdade() {
         return calcularIdade;
     }
 
+=======
+>>>>>>> origin/master
     private final AlunoRepository alunoRepository;
 
     public AlunoService(AlunoRepository alunoRepository) {
@@ -28,5 +31,9 @@ public class AlunoService {
     public List<Aluno> mostrar() {
         return alunoRepository.findAll();
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> origin/master
 }
